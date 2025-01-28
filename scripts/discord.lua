@@ -34,7 +34,7 @@ if not file_exists(options.binary_path) then
 end
 
 local version = "1.6.1"
-msg.info(("mpv-discord v%s by CosmicPredator"):format(version))
+msg.info(("mpv-discord v%s by Fadexz"):format(version))
 
 local socket_path = options.socket_path
 if not options.use_static_socket_path then

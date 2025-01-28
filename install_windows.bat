@@ -3,7 +3,7 @@
 set src_dir=%~dp0
 cd %src_dir%
 
-set /p mpv_dir=Path: 
+set /p mpv_dir=mpv Path: 
 
 if exist %mpv_dir% (
     if not exist %mpv_dir%\mpv.exe (
